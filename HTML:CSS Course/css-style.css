@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2em;
+    font-family: "Copperplate";
+    color: crimson;
+}
+
+.olde {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+blockquote {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
