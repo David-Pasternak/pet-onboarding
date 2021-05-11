@@ -1,11 +1,28 @@
 body {
-    background-color:whitesmoke;
+    background-color: wheat;
+    background-image: url(images/The\ Great\ Wave.jpg);
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    
 }
+
+article {
+    font-size: 1.5em;
+    background-color:rgb(255, 244, 225,0.9); 
+    padding: 10px;
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
 
 h1 {
     font-size: 2em;
-    font-family: "Copperplate";
+    font-family: "Copperplate", "Times New Roman";
     color:navy;
+    text-align: center;
+
 }
 
 .olde, blockquote {
@@ -48,5 +65,8 @@ a:active {
 }
 
 img {
-    border: 2px solid black;
+    border: 5px solid navy;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
