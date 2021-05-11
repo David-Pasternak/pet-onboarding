@@ -1,13 +1,52 @@
+body {
+    background-color:whitesmoke;
+}
+
 h1 {
     font-size: 2em;
     font-family: "Copperplate";
-    color: crimson;
+    color:navy;
 }
 
-.olde {
+.olde, blockquote {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
 }
 
-blockquote {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+a:link {
+    color:deeppink;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+a:active {
+    color:lightseagreen;
+}
+
+.data {
+    border: 2px solid black;
+    font-size: 1.4em;
+}
+.data tr:nth-child(even) {
+    background-color:lightgrey;
+}
+
+.data th {
+    background-color:lightgray;
+    border-bottom: 1px solid black;
+}
+
+.data tr:hover {
+    background-color:powderblue;
+}
+
+img {
+    border: 2px solid black;
 }
